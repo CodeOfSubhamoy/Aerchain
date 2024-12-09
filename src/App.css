@@ -1,0 +1,83 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 10px;
+  height: 100px;
+  margin: 10px;
+}
+.table {
+  margin: 0px 15px;
+}
+.tableHeader {
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: row;
+}
+.cardContent {
+  display: flex;
+  width: 70% !important;
+}
+.buttonContainer {
+  margin: 15px;
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  Button {
+    margin: 5px;
+  }
+}
+.AddForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.AddtripContainer {
+  margin: 30px;
+}
+.modalClass {
+  display: flex;
+  flex-direction: column;
+}
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 25px;
+}
+.AddTripBtn {
+  position: fixed;
+}
+.modalContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.starIcon {
+  color: red;
+}
+#form-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondCard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+.thirdCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.firstContent {
+  background-color: rgb(247, 185, 185);
+  width: 40%;
+}
